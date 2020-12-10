@@ -102,3 +102,85 @@ th {
 		.title-small {
 		font-size: .5rem;
 		}
+
+		#morecontent {
+			background-color: yellow;
+			}
+		 
+		#footer{
+		font-size: 10px;
+		margin: auto;
+		width: 85%;
+		border: 3px solid green;
+		padding: 10px;
+		}
+
+		
+
+		#main{ 
+			background-color: #750c0c;
+			font-size: 16px;
+		}
+
+		*{
+			margin: 2px;
+		}
+
+	    .content{
+			box-shadow: -5px -5px 10px;
+			margin: 7.5%;
+			background-color: rgb(255, 94, 0);
+			font-style: normal;
+			font-size: ;
+		}
+
+		div#face {
+			width: 40vw;
+			height: 40vw;
+			max-width: 400px;
+			max-height: 400px;
+			margin: 0 auto;
+			position: relative;
+			background: rgb(0, 0, 0);
+			margin-top: 2rem;
+			}
+			
+			div#face, div#face * {
+			border-radius: 50%;
+			}
+			
+			.eye {
+			width: 25%;
+			height: 25%;
+			background: #fff;
+			position: absolute;
+			top: 20%;
+			}
+			
+			.left.eye {
+			left: 20%;
+			}
+			
+			.right.eye {
+			right: 20%;
+			}
+			
+			.pupil {
+			background: #000;
+			width: 50%;
+			height: 50%;
+			position: relative;
+			left: 25%;
+			transform-origin: bottom;
+			}
+			
+			#mouth {
+			position: relative;
+			width: 60%;
+			left: 20%;
+			height: 25%;
+			border: 1vw solid transparent;
+			border-radius: 50%;
+			top: 50%;
+			border-bottom-color: rgb(199, 7, 7);
+			}
